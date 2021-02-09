@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200;300&display=swap')
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(144, 221, 120);
+    margin: 0 auto;
+    font-size: 16px;  
+}
+.container {
+    background-color: rgb(211, 235, 235);
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:maroon;
+    min-height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.title h1 {
+    color: #fff;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    padding: 40px auto;
+    text-align: center;
+}
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #f5cdb0;
+}
+.main-nav span:hover {
+    background-color: maroon;
+    padding: 5px 2px;
+}
+.main-nav:hover {
+    background-color: #f7a061;
+    padding: 5px 2px;
+    color: #fff;
+}
+.anchor {
+    padding: 5px 2px;
+    margin: 5px;
+}
+.anchor:hover {
+    background-color: maroon;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+
+Section-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: mediumvioletred;
+}
+.main-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+img.main-icons {
+    margin: 0 auto;
+}
+Section-2 {
+    padding: 20px 0;
+}
+Section-2 ul li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+Section-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.agency {
+    padding: 5px;
+}
+.gov-link1 {
+    background-image: url(images/govph-seal-mono-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+@media (max-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+    .title {
+        background-color:maroon;
+        min-height: 50px;
+    }
+    .title h1 { 
+        font-family: 'Josefin Slab', serif;
+        font-size: 1.15rem;
+        letter-spacing: 1.5px;
+        padding: 20px auto;  
+    }
+    .main-nav {
+        height: 100px;
+        line-height: .9rem;
+    }
+   
+}
